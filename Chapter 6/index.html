@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Petrol Calculator</title>
+  <link rel="stylesheet" type="text/css" href="chapter6stylesheet.css">
+  <meta charset="utf-8">
+ </head>
+ 
+<body>
+<h1>Petrol Calculator</h1>
+    <div class="calculator">
+        <h4>Cost of Petrol per Liter</h4>
+        <input id="field1" name="field1" input type="number" value="1.72">
+        <h4>Liters Purchased</h4>
+        <input id="field2" name="field2" input type="number" min="0" max="1000">
+        <div id="keys">
+            <button onclick="calculate()">=</button>
+            <button onclick="clearDisplay()">Del</button>
+        </div>
+    </div>
+    <div class="totaldisplay">
+        <p id="display"></p>
+    </div>
+
+    <script type="text/javascript">
+        function calculate() {
+            var petrol = parseFloat(document.getElementById('field1').value);
+            var cost = parseFloat(document.getElementById('field2').value);
+            var calculation = petrol*cost;
+            document.getElementById('display').innerHTML = calculation;
+        }
+        
+        function clearDisplay() {
+            document.getElementById('field2').value = "";
+        }
+    </script>
+</body>
+</html>

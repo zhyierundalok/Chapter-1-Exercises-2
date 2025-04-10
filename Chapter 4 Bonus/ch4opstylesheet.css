@@ -1,0 +1,285 @@
+<style>
+
+ body { font-family: "Gill Sans", Verdana, Arial; }
+ 
+ h1 {
+	 padding: 15px;
+     margin: 0;
+     color: white;
+     font-family: "Gill Sans", Verdana, Arial;
+     text-align: center;
+	 background-color: #848484;
+	 border-radius: 50px 50px 0 0;
+ }
+ 
+ nav { background-color: #cbc6c5;
+  padding: 0;
+  overflow: hidden;
+  }
+  
+ nav ul { list-style-type: none; }
+ 
+ nav a { text-decoration: none; 
+  padding: 1px 5px;
+  color: white;
+  font-family: "Gill Sans", Verdana, Arial;
+  margin: 15px;
+  font-size: 1em;
+  }
+  
+ nav li { display: inline;}
+ 
+ nav li ul a { text-align: center; }
+
+ nav li a:hover {
+  background-color: #a9a9a9;
+  font-size: 1.1em;
+  border-radius: 10px;
+  padding: 10px;
+ }
+
+ nav li a:active {
+  background-color: grey;
+  color: black;
+ }
+ 
+ .sections {
+	 border-radius: 20px;
+	 width: 90%;
+	 height: 25%;
+     margin: auto;
+	 position: relative;
+	 background-color: white;
+ }
+ 
+ h3 {
+	 padding: 5px;
+     color: white;
+     font-family: "Gill Sans", Verdana, Arial;
+     text-align: left;
+	 background-color: #a9a9a9;
+	 border-radius: 20px; 
+ }
+ 
+ .content {
+     margin: 0;
+     position: relative;
+     top: 20%;
+     -ms-transform: translateY(-20%);
+     transform: translateY(-20%);
+	 text-indent: 30px;
+ }
+ 
+  .content4 {
+     position: relative;
+     top: 20%;
+     -ms-transform: translateY(-20%);
+     transform: translateY(-20%);
+	 text-indent: 30px;
+	 padding: 3px;
+ }
+ 
+ h5 {
+	 font-family: "Gill Sans", Verdana, Arial;
+ }
+ 
+ .icon1 {
+	 border-radius: 50%; 
+	 border: 2px solid #000000;
+	 width: 65px;
+	 height: 65px;
+	 display: inline;
+	 overflow: auto;
+     padding: 4px;
+	 margin: 4px;
+ }
+ 
+ .content2 {
+	 display: inline-block;
+	 width: 40%;
+	 height: 40%;
+	 float; left;
+	 padding: 10px;
+	 margin: 0;
+     position: relative;
+     top: 10%;
+     -ms-transform: translateY(-10%);
+     transform: translateY(-10%);
+ }
+ 
+ .content3 {
+	 height: 40%;
+	 width: 40%;
+	 float: right;
+	 display: inline-block;
+	 padding: 10px;
+	 margin: 0;
+     position: relative;
+     top: 10%;
+     -ms-transform: translateY(-10%);
+     transform: translateY(-10%);
+ }
+ 
+ .sections2 {
+	 font-family: "Gill Sans", Verdana, Arial;
+	 border-radius: 20px;
+	 width: 90%;
+	 height: 80%;
+     margin: auto;
+	 position: relative;
+	 display: block;
+	 top: 10%;
+     -ms-transform: translateY(-10%);
+     transform: translateY(-10%);
+ }
+ 
+ h4 {
+	 padding: 3px;
+     color: black;
+     font-family: "Gill Sans", Verdana, Arial;
+     text-align: left;
+	 background-color: #dcdcdc;
+	 border-radius: 20px; 
+ }
+ 
+ .widgets {
+	 display: flex;
+	 flex-direction: row;
+ }
+ 
+ .icon {
+	 border-radius: 50%; 
+	 border: 2px solid #000000;
+	 width: 65px;
+	 height: 65px;
+	 display: inline;
+	 overflow: auto;
+   padding: 4px;
+	 margin: auto;
+ }
+
+ .sections {
+	 border-radius: 20px;
+	 width: 90%;
+	 height: 25%;
+   margin: auto;
+	 position: relative;
+	 background-color: white;
+ }
+
+ .lessons {
+  font-family: "Gill Sans", Verdana, Arial;
+ }
+
+ .progressbar {
+  background-color: #f2f2f2;
+  border-radius: 25px;
+  height: 25px;
+  width: 80%;
+  margin: auto;
+}
+
+ .value {
+  background-color: grey;
+  border-radius: 25px;
+  height: 25px;
+  width: 45%;
+ }
+ 
+ .Month {
+  padding: 5px 15px;
+  width: 80%;
+  background: #414141d8;
+  text-align: center;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.Month ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.Month ul li {
+  color: white;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: "Gill Sans", Verdana, Arial;
+}
+
+h2 {
+  color: white;
+  font-family: "Gill Sans", Verdana, Arial;
+  margin: 2px;
+}
+
+.Weekdays {
+  margin: 0;
+  padding: 10px 0 ;
+  background-color:#ddd;
+  border-radius: 20px 20px 0 0;
+  font-size: 1em;
+}
+
+.Weekdays li {
+  display: inline-block;
+  width: 12%;
+  color: #666;
+  text-align: center;
+  margin: 5px 1px;
+}
+
+.Days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+  border-radius: 0 0 20px 20px;
+}
+
+.Days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 12%;
+  text-align: center;
+  margin: 5px 1px;
+  font-size:12px;
+  color: #777;
+}
+
+.Days li .active {
+  padding: 5px;
+  background: #dcdcdc;
+  color: white;
+  border-radius: 50px;
+}
+
+ .container {
+	border-radius: 50px;
+	width: 500px;
+	height: 700px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+	background: #f2f2f2;
+ }
+ 
+   footer { 
+     text-align: center;
+     background-color: #848484;
+     color: white;
+     position: absolute;
+     bottom: 0;
+     width: 95%;
+     overflow: hidden;
+     display: block;
+     margin: auto;
+	 padding: 12px;
+	 border-radius: 0 0 90px 90px;
+  }
+  
+</style>
+

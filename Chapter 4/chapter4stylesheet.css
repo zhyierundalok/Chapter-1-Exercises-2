@@ -1,0 +1,103 @@
+<style>
+
+#wrapper { width: 100%;
+ margin-left: auto;
+ margin-right: auto;
+ background-color: #FFFFFF; 
+ }
+
+ body {
+  font-family: Arial, Verdana, Helvetica;
+}
+  
+ header { background-color: #17072b;}
+ 
+ h1 { padding: 20px;
+  margin: 0;
+  color: white;
+  text-decoration: underline;
+  font-family: Tahoma, Arial, Helvetica;
+  text-align: center;
+  height: 20px;
+  }
+ 
+ nav { background-color: #17072b;
+  padding: 0px 0;
+  overflow: hidden;
+  text-align: center;
+  }
+  
+ nav ul { list-style-type: none;}
+ 
+ nav a { text-decoration: none; 
+  padding: 1px 5px;
+  color: white;
+  font-family: Tahoma, Arial, Helvetica; 
+  margin: 0 10px;
+  font-size: 1em;
+  }
+  
+ nav li { display: inline;}
+ 
+ h4 { font-size: 1.5em;
+  font-style: bold;
+  text-decoration: underline;
+ }
+ 
+ h4 { font-size: 1.5em;
+  font-style: bold;
+  text-decoration: underline;
+  }
+ 
+ .maincontent { display: inline-block;
+   width: 60%;
+   height: 100%;
+   margin-top: 10px;
+   }
+   
+ .sidebar { display: inline-block;
+   width: 35%;
+   height: 100%;
+   float: right;
+   background-color: #172d67;
+   border: 1px;
+   color: white;
+   margin-top: 10px;
+   padding-left: 20px;
+   padding-bottom: 20px;
+   }
+  
+ #dash { list-style-type: '- '; 
+  list-style-position: inside;
+  padding-left: 0;
+  }  
+ 
+ .sidepicture { display: inline;
+  width: 160px; 
+  height: 160px; 
+  object-fit: cover;
+  overflow: auto;
+  padding: 5px;
+  }
+  
+ .mainpicture { display: inline;
+  width: 100%; 
+  height: 190px; 
+  object-fit: cover;
+  overflow: auto;
+  }
+  
+ footer { text-align: center;
+  font-family: Arial, Verdana, Helvetica;
+  background-color: #8c15e9;
+  color: white;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: auto;
+  display: inline-block;
+  margin-top: 10px;
+  }
+
+</style>
